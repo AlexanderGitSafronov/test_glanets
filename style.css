@@ -6,6 +6,7 @@ body {
 /* Start Header */
 .container {
   margin: 18.5px 51px 0 51px;
+  
 }
 .upper_header {
   display: flex;
@@ -145,6 +146,8 @@ button:hover {
   background-image: url("./image/Rectangle.png");
   width: 100vw;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .new {
   width: 400px;

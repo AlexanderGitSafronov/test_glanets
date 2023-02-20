@@ -1,0 +1,52 @@
+@media (max-width: 991px) {
+    .upper_header {
+        display: block;
+    }
+    .central_header {
+        margin-bottom: 15px;
+    }
+    .left_side, .right_part {
+        justify-content: space-around;
+    }
+    .header_left {
+        order: 1;
+    }
+    .header_right {
+        order: 3;
+    }
+    .header_logo {
+        width: 200px;
+        margin-bottom: 0;
+    }
+    button {
+        margin-left: 0;
+        padding: 8px 26px;
+    }
+    .ic_angle{
+        display: none;
+    }
+    .phone{
+        margin-left: 0px;
+    }
+    .container {
+        margin: 17.5px 10px 0 10px;
+    }
+    .carusel i {
+        top: 8vh;
+        left: 4vh;
+    }
+    .carusel_right i {
+        top: 8vh;
+        right: 4vh;
+    }
+    .badroom {
+        border: 1px solid silver;
+        padding: 20px;
+    }
+    .badroom_img{
+        display: block;
+    }
+    .badroom:nth-child(2) {
+        margin: 10px 20px;
+    }
+}
